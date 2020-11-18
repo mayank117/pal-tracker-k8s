@@ -13,7 +13,7 @@ public class BackingService {
     private boolean warmed = false;
 
     public BackingService(BackingServiceFailure failure) {
-        this.failure = failure;
+         this.failure = failure;
     }
 
     public boolean ping() {
